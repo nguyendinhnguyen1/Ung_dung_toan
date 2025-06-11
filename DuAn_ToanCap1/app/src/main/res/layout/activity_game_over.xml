@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_chinh"
+    tools:context=".GameOverActivity">
+
+    <TextView
+        android:id="@+id/btn_cauhoi"
+        android:layout_width="342dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/thanhdiemso"
+        android:fontFamily="@font/chewy_regular"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="373dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/linhvat"
+        app:layout_constraintBottom_toTopOf="@+id/btn_diem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
+
+    <TextView
+        android:id="@+id/btn_diem"
+        android:layout_width="214dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="424dp"
+        android:background="@drawable/thanhcauhoi"
+        android:fontFamily="@font/chewy_regular"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <Button
+        android:id="@+id/btn_luudiem"
+        android:layout_width="163dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/luudiem"
+        android:fontFamily="@font/chewy_regular"
+        android:gravity="center"
+        android:text="Lưu điểm"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064" />
+
+
+    <ImageButton
+        android:id="@+id/btn_quaylai"
+        android:layout_width="164dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="80dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Quay lại"
+        android:scaleType="fitCenter"
+        android:src="@drawable/nutql"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_home"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btn_home"
+        android:layout_width="206dp"
+        android:layout_height="218dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Home"
+        android:scaleType="fitCenter"
+        android:src="@drawable/manhinhchinh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

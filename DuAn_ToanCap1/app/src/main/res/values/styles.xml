@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="NumberButton">
+    <item name="android:layout_width">64dp</item>
+    <item name="android:layout_height">64dp</item>
+    <item name="android:layout_margin">6dp</item>
+    <item name="android:backgroundTint">#FFD700</item>
+    <item name="android:textColor">#5B3000</item>
+    <item name="android:textSize">24sp</item>
+    <item name="android:fontFamily">@font/chewy_regular</item>
+    <item name="android:textStyle">bold</item>
+</style>
+</resources>
